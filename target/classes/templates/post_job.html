@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Job</title>
+    <!-- Include Bootstrap CSS if needed -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px; /* Adjusted to accommodate the fixed navbar */
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Post a Job</h1>
+
+    <!-- Job posting form -->
+    <div class="container mt-4">
+        <form th:action="@{/post-job}" method="post" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="jobName">Job Name:</label>
+                <input type="text" id="jobName" name="jobName" class="form-control" required>
+                <div class="invalid-feedback">Please enter a job name.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Experience:</label>
+                <input type="text" id="experience" name="experience" class="form-control" required>
+                <div class="invalid-feedback">Please enter the required experience.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" class="form-control" required>
+                <div class="invalid-feedback">Please enter a location.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="jobDescription">Job Description:</label>
+                <textarea id="jobDescription" name="jobDescription" class="form-control" rows="4" required></textarea>
+                <div class="invalid-feedback">Please enter a job description.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Job</button>
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
