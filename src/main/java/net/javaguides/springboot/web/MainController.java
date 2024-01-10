@@ -15,4 +15,8 @@ public class MainController {
 	public String home() {
 		return "index";
 	}
+	@GetMapping("/post-job")
+	public String showPostJobForm() {
+		return "post_job";
+	}
 }
