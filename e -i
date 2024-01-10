@@ -1,0 +1,43 @@
+[33mcommit 94ff7d8d6455237da916ba8561c03c9b57a51339[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: HariEdith <elanhariharan@gmail.com>
+Date:   Wed Jan 10 08:18:52 2024 +0530
+
+    jop-post-page
+
+[33mcommit 21d370ee165facc8074bac24e851db5afd1e8c95[m
+Author: HariEdith <elanhariharan@gmail.com>
+Date:   Wed Jan 10 08:18:26 2024 +0530
+
+    jop-post-page
+
+[33mcommit 05168d27104c7a7c0c7cb701fdd2bf1a6fc66359[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ramesh Fadatare <ramesh24fadatare@gmail.com>
+Date:   Tue Jun 30 19:05:58 2020 +0530
+
+    Update README.md
+
+[33mcommit 9a92c67467b9bc9d8ae09a09aab867fc4a5c07f4[m
+Author: Ramesh Fadatare <ramesh24fadatare@gmail.com>
+Date:   Tue Jun 30 19:03:20 2020 +0530
+
+    Update index.html
+    
+    Updated index.html with logout and spring security principle access using thymeleaf attribute.
+
+[33mcommit cecb67a8220f5f5abcafa9cc5c58838b34ae9810[m
+Author: Ramesh Fadatare <ramesh24fadatare@gmail.com>
+Date:   Fri Jun 12 15:22:53 2020 +0530
+
+    Update README.md
+
+[33mcommit 9c83994087bc50915bcfab92b43c4ffb32f35b30[m
+Author: Ramesh Fadatare <ramesh24fadatare@gmail.com>
+Date:   Sun Jun 7 17:19:32 2020 +0530
+
+    Create README.md
+
+[33mcommit 964510830ad9dc5ec23de9b588cf9e0fc18cb19b[m
+Author: RameshMF <ramesh24fadatare@gmail.com>
+Date:   Sun Jun 7 17:09:17 2020 +0530
+
+    Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL
